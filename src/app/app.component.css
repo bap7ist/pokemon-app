@@ -1,0 +1,29 @@
+.pokemons-container {
+    position: absolute;
+    width: 90%;
+    left: 5%;
+    display: flex;
+    flex-flow: row wrap;
+    justify-content: center;
+}
+
+.pokemon-box {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    margin: 20px;
+    box-shadow: 0 0 1em grey;
+    border-radius: 10px;
+    padding: 5px;
+    width: 25%;
+    height: 20%;
+}
+
+.pokemon-text h1 {
+    font-family: "Maven Pro", sans-serif;
+    font-weight: bold;
+}
+
+.pokemon-text p {
+    font-family: "Maven Pro", sans-serif;
+}
